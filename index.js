@@ -1,6 +1,6 @@
 'use strict';
 
-const config = require('./config.json');
+const config = require('./config');
 const { bot } = require('./src/bot');
 const { setup } = require('./src/index');
 
