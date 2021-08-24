@@ -27,7 +27,7 @@ Supports message delete, update, lock command...
 Clone this repository.  
 Run `npm install` or `yarn`.  
 
-Copy and paste `config.template.json` as `config.json`.  
+Copy and paste `config.template.json` as `config`.  
 Enter your bot token and all correct information:
 
 ```js

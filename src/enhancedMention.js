@@ -1,7 +1,7 @@
 'use strict';
 
 const { Resolver } = require('./Resolver');
-const config = require('../config.json');
+const config = require('../config');
 
 const TRY_MENTION_REGEX = /(?<=((\?<!<)@|(?<!<)#))(\S+)/;
 const MENTION_REGEX = /<(@&|@|#)!?([0-9]+)>/;

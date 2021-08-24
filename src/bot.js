@@ -1,7 +1,7 @@
 'use strict';
 
 const { Client } = require('eris');
-const config = require('../config.json');
+const config = require('../config');
 
 exports.bot = new Client(config.token, {
     defaultImageFormat: 'png',
